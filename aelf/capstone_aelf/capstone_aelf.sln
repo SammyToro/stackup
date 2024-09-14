@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StackUpDAO", "src\StackUpDAO.csproj", "{1F5DA551-67F0-4DD9-944E-19C0FEECEAD7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StackUpDAO.Tests", "test\StackUpDAO.Tests.csproj", "{2F0C1CFB-3E19-4AA1-BD2C-C7EF7A1CC266}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F5DA551-67F0-4DD9-944E-19C0FEECEAD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F5DA551-67F0-4DD9-944E-19C0FEECEAD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F5DA551-67F0-4DD9-944E-19C0FEECEAD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F5DA551-67F0-4DD9-944E-19C0FEECEAD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F0C1CFB-3E19-4AA1-BD2C-C7EF7A1CC266}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F0C1CFB-3E19-4AA1-BD2C-C7EF7A1CC266}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F0C1CFB-3E19-4AA1-BD2C-C7EF7A1CC266}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F0C1CFB-3E19-4AA1-BD2C-C7EF7A1CC266}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D60981EE-491D-43BF-8122-B5FDB3E70F77}
+	EndGlobalSection
+EndGlobal

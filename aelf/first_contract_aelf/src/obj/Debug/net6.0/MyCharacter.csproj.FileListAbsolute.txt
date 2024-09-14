@@ -1,0 +1,12 @@
+C:\Users\SamuelOfori-Okyere\StackUp\aelf\first_contract_aelf\src\bin\Debug\net6.0\MyCharacter.deps.json
+C:\Users\SamuelOfori-Okyere\StackUp\aelf\first_contract_aelf\src\bin\Debug\net6.0\MyCharacter.dll
+C:\Users\SamuelOfori-Okyere\StackUp\aelf\first_contract_aelf\src\bin\Debug\net6.0\MyCharacter.pdb
+C:\Users\SamuelOfori-Okyere\StackUp\aelf\first_contract_aelf\src\obj\Debug\net6.0\MyCharacter.csproj.AssemblyReference.cache
+C:\Users\SamuelOfori-Okyere\StackUp\aelf\first_contract_aelf\src\obj\Debug\net6.0\MyCharacter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SamuelOfori-Okyere\StackUp\aelf\first_contract_aelf\src\obj\Debug\net6.0\MyCharacter.AssemblyInfoInputs.cache
+C:\Users\SamuelOfori-Okyere\StackUp\aelf\first_contract_aelf\src\obj\Debug\net6.0\MyCharacter.AssemblyInfo.cs
+C:\Users\SamuelOfori-Okyere\StackUp\aelf\first_contract_aelf\src\obj\Debug\net6.0\MyCharacter.csproj.CoreCompileInputs.cache
+C:\Users\SamuelOfori-Okyere\StackUp\aelf\first_contract_aelf\src\obj\Debug\net6.0\MyCharacter.dll
+C:\Users\SamuelOfori-Okyere\StackUp\aelf\first_contract_aelf\src\obj\Debug\net6.0\refint\MyCharacter.dll
+C:\Users\SamuelOfori-Okyere\StackUp\aelf\first_contract_aelf\src\obj\Debug\net6.0\MyCharacter.pdb
+C:\Users\SamuelOfori-Okyere\StackUp\aelf\first_contract_aelf\src\obj\Debug\net6.0\ref\MyCharacter.dll

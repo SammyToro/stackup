@@ -1,0 +1,69 @@
+{
+    "ari": "ari:identity:ap-southeast-1:441434f2-ade0-4bb7-8416-378cd588e48d:login_configuration/6f7f2e39-8c1c-4917-a5cb-a991d9025ddb",
+    "projectId": "441434f2-ade0-4bb7-8416-378cd588e48d",
+    "configurationId": "6f7f2e39-8c1c-4917-a5cb-a991d9025ddb",
+    "name": "quest2",
+    "redirectUris": [
+      "http://localhost:8080/login/callback"
+    ],
+    "auth": {
+      "clientId": "19b4d862-9eba-4540-aca6-7ac4e086ec3f",
+      "issuer": "https://441434f2-ade0-4bb7-8416-378cd588e48d.apse1.login.affinidi.io"
+    },
+    "tokenEndpointAuthMethod": "client_secret_post",
+    "presentationDefinition": {
+      "id": "vp_token_with_profile_vc",
+    "input_descriptors": [
+      {
+        "id": "profile_vc",
+        "name": "GivenName VC",
+        "purpose": "Check if data contains necessary fields",
+        "constraints": {
+          "fields": [
+            {
+              "path": [
+                "$.type"
+              ],
+              "purpose": "Check if VC type is correct",
+              "filter": {
+                "type": "array",
+                "contains": {
+                  "type": "string",
+                  "pattern": "HITGivenName"
+                }
+              }
+            },
+            {
+              "path": [
+                "$.credentialSubject.givenName"
+              ],
+              "purpose": "Check if VC contains givenName field",
+              "filter": {
+                "type": "string"
+              }
+            }
+          ]
+        }
+      }
+    ]
+    },
+    "idTokenMapping": [
+      {
+      "sourceField": "$.type",
+      "idTokenClaim": "type",
+      "inputDescriptorId": "profile_vc"
+      },
+    {
+      "sourceField": "$.credentialSubject.givenName",
+      "idTokenClaim": "givenName",
+      "inputDescriptorId": "profile_vc"
+    }
+    ],
+    "creationDate": "2024-01-29T04:56:56Z",
+    "failOnMappingConflict": true,
+    "clientMetadata": {
+      "name": "quest2",
+      "logo": "https://login.affinidi.com/default-client-logo.svg",
+      "origin": "http://localhost:8080"
+    }
+  }
